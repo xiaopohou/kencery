@@ -1,0 +1,18 @@
+1.爸爸妈妈，我下辈子还做你们的儿子，我永远爱你，弟弟妹妹们
+
+3.简历投递：
+	(1):博客园
+	(2):智联招聘
+	(3):拉勾网
+	(4):51Job
+	(5):猎聘网
+NotePad++为每一行最后添加符号，按住Ctrl+Alt选择，然后输入需要显示的符号即可
+
+好看的博客：
+	１.http://www.cnblogs.com/xishuai/p/3632304.html
+	２.http://www.cnblogs.com/qouoww/archive/2011/12/31/2309066.html
+	３.http://www.cnblogs.com/capqueen/p/HowToUseRedis.html
+	4. http://blog.csdn.net/tonysz126/article/details/8280696    Memcached和redis的区别
+
+
+重典MVC和EF学习http://www.cnblogs.com/chsword/archive/2010/12/27/searchmodel_1.html

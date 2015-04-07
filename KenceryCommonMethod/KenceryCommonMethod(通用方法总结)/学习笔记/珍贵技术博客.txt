@@ -1,0 +1,22 @@
+﻿1.Memcached和redis的使用：
+	(1).http://blog.csdn.net/tonysz126/article/details/8280696/    Memcached和redis的区别
+	(2).http://kb.cnblogs.com/page/42731/    
+	(3).http://www.cnblogs.com/qingyuan/archive/2011/01/17/1937855.html
+2.引用程序框架实践：
+	(1):http://www.cnblogs.com/xiadao521/p/4059571.html
+2.bootStrap3.0前段框架学习笔记：
+	(1):http://aehyok.com/Blog/Detail/5.html
+
+4.明天需要看的博客
+	http://www.cnblogs.com/hambert/p/4159388.html
+	http://www.cnblogs.com/jiagoushi/p/4158753.html
+	http://www.cnblogs.com/sunniest/p/4158494.html
+	http://www.cnblogs.com/irenebbkiss/p/4157364.htmll
+	http://www.cnblogs.com/xishuai/p/asp-net-5-and-ef7.html
+
+5.经典博客：
+	田园里的蟋蟀：http://www.cnblogs.com/xishuai/
+	郭明峰OSharp博客：http://www.cnblogs.com/guomingfeng/p/osharp-overall-design.html
+	ASP.Net请求处理机制初步探索之旅：http://www.cnblogs.com/edisonchou/p/4192017.html
+
+	 

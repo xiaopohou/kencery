@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{17D6F665-AF6C-4E7E-8997-7B21BD5FEDCC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>KenceryCommonMethod_通用方法总结_</RootNamespace>
+    <AssemblyName>KenceryCommonMethod%28通用方法总结%29</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Aspose.Slides, Version=2.7.8.0, Culture=neutral, PublicKeyToken=5798b630e02d74fc, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>MsOffice转化Pdf图片PDF转换成图片\lib\Aspose.Slides.dll</HintPath>
+    </Reference>
+    <Reference Include="Aspose.Words, Version=11.7.0.0, Culture=neutral, PublicKeyToken=f0cad6ec951377d2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>MsOffice转化Pdf\lib\Aspose.Words.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Zip压缩通用类库\lib\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Ionic.Zip, Version=1.9.1.8, Culture=neutral, PublicKeyToken=edbe51ad942a3f5c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Zip压缩通用类库-未\lib\Ionic.Zip.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.PowerPoint, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>MsOffice转化Pdf\lib\Microsoft.Office.Interop.PowerPoint.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Json对象转换\lib\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI, Version=2.0.1.0, Culture=neutral, PublicKeyToken=0df73ec7942b34e1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>操作Excel-未\lib\NPOI.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OOXML, Version=2.0.1.0, Culture=neutral, PublicKeyToken=0df73ec7942b34e1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>操作Excel-未\lib\NPOI.OOXML.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OpenXml4Net, Version=2.0.1.0, Culture=neutral, PublicKeyToken=0df73ec7942b34e1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>操作Excel-未\lib\NPOI.OpenXml4Net.dll</HintPath>
+    </Reference>
+    <Reference Include="O2S.Components.PDFRender4NET, Version=2.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>PDF转换图片\lib\O2S.Components.PDFRender4NET.dll</HintPath>
+    </Reference>
+    <Reference Include="Office, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>MsOffice转化Pdf\lib\Office.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Json对象转换\JsonNetHelper.cs" />
+    <Compile Include="Linq扩展方法\LinqExtendMethodHelper.cs" />
+    <Compile Include="MVC扩展方法\MvcDynamicHelper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="MsOffice转化Pdf图片PDF转换成图片\MSOfficeConvertPdfHelper.cs" />
+    <Compile Include="SQL Helper帮助类-未\OperationDataBaseHelper.cs" />
+    <Compile Include="Zip压缩通用类库\ZipHelper.cs" />
+    <Compile Include="对象转化器\ObjectConvertHelper.cs" />
+    <Compile Include="操作Excel\ExcelBaseHelper.cs" />
+    <Compile Include="操作Excel\ExcelOneHelper.cs" />
+    <Compile Include="枚举_下拉框%28Enum%29\DropDownListHelper.cs" />
+    <Compile Include="枚举_下拉框%28Enum%29\EnumHelper.cs" />
+    <Compile Include="读取WebConfig\WebConfigHelper.cs" />
+    <Compile Include="通用各种加密解密\EncryptHelper.cs" />
+    <Compile Include="通用各种加密解密\FileEncryptHelper.cs" />
+    <Compile Include="通用工具类\StringExtensionHelper.cs" />
+    <Compile Include="通用工具类\ToolsHelper.cs" />
+    <Compile Include="验证码%28Drawing%29\ValidateCodeHelper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Json对象转换\lib\Newtonsoft.Json.dll" />
+    <Content Include="MsOffice转化Pdf图片PDF转换成图片\lib\Aspose.Slides.dll" />
+    <Content Include="MsOffice转化Pdf图片PDF转换成图片\lib\Aspose.Words.dll" />
+    <Content Include="MsOffice转化Pdf图片PDF转换成图片\lib\Microsoft.Office.Interop.PowerPoint.dll" />
+    <Content Include="MsOffice转化Pdf图片PDF转换成图片\lib\Office.dll" />
+    <Content Include="MsOffice转化Pdf图片PDF转换成图片\lib\O2S.Components.PDFRender4NET.dll" />
+    <Content Include="Zip压缩通用类库\lib\ICSharpCode.SharpZipLib.dll" />
+    <Content Include="Zip压缩通用类库\lib\Ionic.Zip.dll" />
+    <Content Include="学习笔记\共用类文档说明.txt" />
+    <Content Include="学习笔记\个人文档新信息.txt" />
+    <Content Include="学习笔记\珍贵技术博客.txt" />
+    <Content Include="学习笔记\视频总结.txt" />
+    <Content Include="学习笔记\开元项目.txt" />
+    <Content Include="操作Excel\lib\NPOI.dll" />
+    <Content Include="操作Excel\lib\NPOI.OOXML.dll" />
+    <Content Include="操作Excel\lib\NPOI.OpenXml4Net.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Ftp操作-未\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
