@@ -7,8 +7,8 @@
     <ProjectGuid>{17D6F665-AF6C-4E7E-8997-7B21BD5FEDCC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>KenceryCommonMethod_通用方法总结_</RootNamespace>
-    <AssemblyName>KenceryCommonMethod%28通用方法总结%29</AssemblyName>
+    <RootNamespace>KenceryCommonMethod</RootNamespace>
+    <AssemblyName>KenceryCommonMethod</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
